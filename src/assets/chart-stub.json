@@ -1,0 +1,683 @@
+{
+  "colors": ["#7cb5ec", "#2e2e62", "#90ed7d", "#1E90FF", "#8085e9", "#f97205", "#e4d354", "#2b908f", "#f45b5b", "#91e8e1", "#2f7ed8", "#FF0000", "#8bbc21", "#910000", "#1aadce", "#492970", "#f28f43", "#77a1e5", "#c42525", "#0d233a", "#191970", "#000080", "#00008B", "#0000CD", "#0000FF", "#4169E1", "#8A2BE2", "#4B0082", "#483D8B", "#6A5ACD", "#7B68EE"],
+  "chart": {
+    "type": "column",
+    "zoomType": "xy",
+    "panning": true,
+    "panKey": "shift",
+    "backgroundColor": "#f5f5f5",
+    "events": {}
+  },
+  "title": {
+    "margin": 0,
+    "text": "Thin Stacked Columns Demo",
+    "x": 15
+  },
+  "credits": {
+    "enabled": false
+  },
+  "legend": {
+    "enabled": true,
+    "itemStyle": {
+      "fontSize": "9px"
+    }
+  },
+  "tooltip": {
+    "hideDelay": 50,
+    "shared": false,
+    "backgroundColor": "white",
+    "shape": "square"
+  },
+  "xAxis": [{
+    "left": "0%",
+    "width": "30%",
+    "offset": 0,
+    "categories": ["2018", "PRIOR YR", "YTD", "ROLLING 12"],
+    "labels": {
+      "rotation": 0
+    }
+  }, {
+    "left": "40%",
+    "width": "60%",
+    "offset": 0,
+    "categories": ["Aug 2019", "Sep 2019", "Oct 2019", "Nov 2019", "Dec 2019", "Jan 2020", "Feb 2020", "Mar 2020", "Apr 2020", "May 2020", "Jun 2020", "Jul 2020", "Aug 2020", "Sep 2020"]
+  }],
+  "yAxis": [{
+    "left": "0%",
+    "width": "30%",
+    "offset": 0,
+    "title": {
+      "text": null
+    },
+    "plotLines": [],
+    "gridLineWidth": 1
+  }, {
+    "left": "40%",
+    "width": "60%",
+    "offset": 0,
+    "title": {
+      "text": null
+    },
+    "plotLines": [],
+    "gridLineWidth": 1
+  }],
+  "plotOptions": {
+    "column": {
+      "stacking": "normal",
+      "grouping": false,
+      "dataLabels": {
+        "enabled": false,
+        "color": "white"
+      },
+      "events": {}
+    },
+    "series": {
+      "stacking": "normal",
+      "grouping": false,
+      "turboThreshold": 20000,
+      "events": {}
+    }
+  },
+  "series": [{
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "A",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "A",
+    "color": "#7cb5ec"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "A",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "A",
+    "color": "#7cb5ec"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "B",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "B",
+    "color": "#2e2e62"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "B",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "B",
+    "color": "#2e2e62"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "C",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "C",
+    "color": "#90ed7d"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "C",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "C",
+    "color": "#90ed7d"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "D",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "D",
+    "color": "#1E90FF"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "D",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "D",
+    "color": "#1E90FF"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "E",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "E",
+    "color": "#8085e9"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "E",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "E",
+    "color": "#8085e9"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "F",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "F",
+    "color": "#f97205"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "F",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "F",
+    "color": "#f97205"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "G",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "G",
+    "color": "#e4d354"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "G",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "G",
+    "color": "#e4d354"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "H",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "H",
+    "color": "#2b908f"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "H",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "H",
+    "color": "#2b908f"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "I",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "I",
+    "color": "#f45b5b"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "I",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "I",
+    "color": "#f45b5b"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "J",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "J",
+    "color": "#91e8e1"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "J",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "J",
+    "color": "#91e8e1"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "K",
+    "data": [483030.13237986143, 2542539.0832642294, 14051422.165575368, 16029518.408375254],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "K",
+    "color": "#2f7ed8"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "K",
+    "data": [72560.93508349857, 197188.6097645254, 505099.7057411983, 603619.7694309556, 996365.1265710877, 4688167.828698297, 3359261.00911751, 1336918.6331953318, 1126783.573748272, 551092.649019835, 1082427.0714177347, 585034.8422472185, 699286.9124598578, 622449.6456713205],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "K",
+    "color": "#2f7ed8"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "L",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "L",
+    "color": "#FF0000"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "L",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "L",
+    "color": "#FF0000"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "M",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "M",
+    "color": "#8bbc21"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "M",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "M",
+    "color": "#8bbc21"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "N",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "N",
+    "color": "#910000"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "N",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "N",
+    "color": "#910000"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "O",
+    "data": [8444149.20311572, 6743969.945135738, 5589362.935410458, 7757280.882909218],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "O",
+    "color": "#1aadce"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "O",
+    "data": [390747.930351304, 504911.1876460907, 329434.5617458723, 1228233.7956633712, 740414.2940134984, 902413.8096074011, 765368.0833960302, 1143653.9865268765, 397450.34047259, 551773.13702734, 358019.03354735125, 543563.934415399, 642153.8689554731, 284966.7414619973],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "O",
+    "color": "#1aadce"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "P",
+    "data": [272134.47586202726, 86722.55670160287, 410295.87987167644, 410295.87987167644],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "P",
+    "color": "#492970"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "P",
+    "data": [null, 0, 0, null, null, 140044.61758393966, null, null, null, null, 16360.777297532217, 15658.1617022598, 154244.59262082263, 83987.73066712214],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "P",
+    "color": "#492970"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "Q",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "Q",
+    "color": "#f28f43"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "Q",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "Q",
+    "color": "#f28f43"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "R",
+    "data": [13516479.78578093, 23227212.462334376, 18195639.43016983, 29435855.890541337],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "R",
+    "color": "#77a1e5"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "R",
+    "data": [1101829.8832693973, 2275345.2471479834, 3507820.434009445, 4077528.338689986, 5499363.087328696, 4656608.943015088, 2866784.773384248, 1624189.5630112037, 1948753.4195862587, 1426007.7031893386, 766937.2097302808, 2549057.0534452805, 1153486.5275417697, 1203814.2372663436],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "R",
+    "color": "#77a1e5"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "S",
+    "data": [8008974.364292121, 6438847.713005446, 3203284.0553732207, 5306321.892283572],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "S",
+    "color": "#c42525"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "S",
+    "data": [214372.8190368001, 885488.0809508659, 585703.6568493762, 676099.6340470177, 1055836.4860117384, 723541.2263621865, 519029.6983570403, 705325.0162023357, 36470.291862274826, 49989.73329639659, null, null, 748064.0579210492, 420864.03137193684],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "S",
+    "color": "#c42525"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "T",
+    "data": [64414.54000954479, 968977.8477736387, 2382882.97036395, 2980561.9706337927],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "T",
+    "color": "#0d233a"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "T",
+    "data": [null, 371298.8475037965, 0, 223673.10746929637, 374005.8928005458, 299687.2847912902, 163086.6365681869, 242393.58782891295, 222919.71622347465, 433184.37097730755, 158676.1867739749, 110211.19816193754, 262451.2773445851, 490272.71169428003],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "T",
+    "color": "#0d233a"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "U",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "U",
+    "color": "#191970"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "U",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "U",
+    "color": "#191970"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "V",
+    "data": [6891512.517378453, 9103210.657036219, 4099298.297450522, 4099298.297450522],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "V",
+    "color": "#000080"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "V",
+    "data": [941255.617708341, 0, null, null, null, null, null, 219392.84574017854, 435261.8840216643, 807153.4858882218, 1162705.2485552276, 780930.9357371073, 686362.9757305663, 7490.9217775575235],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "V",
+    "color": "#000080"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "W",
+    "data": [10009378.212945035, 14116931.649821132, 17610596.344833307, 20004124.407722715],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "W",
+    "color": "#00008B"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "W",
+    "data": [2490067.254537038, 1761304.1531708885, 2144201.4063962325, 1663131.0774416756, 394902.531908732, 435888.1375389306, 152863.20610375423, 1413148.9390571993, 2855325.2276927377, 2459791.224174395, 3151388.367753905, 3224322.6732542813, 3196628.2054464445, 721240.363811648],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "W",
+    "color": "#00008B"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "X",
+    "data": [4249358.573115441, 4041243.3247980843, 5631829.882574991, 5842902.536607091],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "X",
+    "color": "#0000CD"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "X",
+    "data": [805778.5200241142, 171775.1470410031, 0, 175664.06907439348, 35408.58495770867, 60009.68769007534, 0, 296161.5337373453, 1766585.8885765665, 839086.974523761, 756398.7920917543, 887937.3592451955, 838069.6514658793, 187579.9952444104],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "X",
+    "color": "#0000CD"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "Y",
+    "data": [null, null, null, null],
+    "xAxis": 0,
+    "yAxis": 0,
+    "id": "Y",
+    "color": "#0000FF"
+  }, {
+    "turboThreshold": 3000,
+    "type": "column",
+    "dataLabels": {
+      "enabled": false
+    },
+    "name": "Y",
+    "data": [null, null, null, null, null, null, null, null, null, null, null, null, null, null],
+    "xAxis": 1,
+    "yAxis": 1,
+    "linkedTo": "Y",
+    "color": "#0000FF"
+  }],
+  "exporting": {}
+}
